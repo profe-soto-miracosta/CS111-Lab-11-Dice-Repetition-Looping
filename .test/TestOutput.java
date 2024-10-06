@@ -1,12 +1,10 @@
+import org.junit.Before;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.InputStream;
-import java.io.PrintStream;
+import java.io.*;
 import java.util.regex.Pattern;
 
 import static org.junit.Assert.assertEquals;
@@ -56,7 +54,7 @@ public class TestOutput
         // Perform the corresponding assertion based on the match type
         switch (matchType) {
             case "exact":
-                assertEquals(expectedOutput, actualOutput, "Exact match failed for " + testCaseName);
+                assertEquals(expectedOutput, actualOutput);
                 break;
             case "match":
                 assertTrue(actualOutput.contains(expectedOutput), "Match failed for " + testCaseName +
