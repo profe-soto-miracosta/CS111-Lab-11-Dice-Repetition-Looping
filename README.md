@@ -23,33 +23,12 @@ Roll 6: [3]
 ...
 Roll 100: [5]
 
-```
-
-```
 Final Roll Counts:
-```
-
-```
-[1]: 20 times
-```
-
-```
-[2]: 30 times
-```
-
-```
-[3]: 10 times
-```
-
-```
+[1]: 15 times
+[2]: 21 times
+[3]: 14 times
 [4]: 20 times
-```
-
-```
-[5]: 10 times
-```
-
-```
-[6]: 10 times
+[5]: 16 times
+[6]: 14 times
 ```
 
