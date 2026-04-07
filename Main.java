@@ -1,6 +1,10 @@
 import java.util.Random;
 
-class Main
+/**
+ * Your project description here.
+ * @author Your name here
+ */
+public class Main
 {
   public static void main(String[] args)
   {
